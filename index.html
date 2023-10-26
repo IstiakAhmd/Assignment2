@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1 class="header"> Assignment 2</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section id="quote-generator">   
+        <h1 class="title"> Quote Generator</h1>
+        <div id="quote-container">
+            <p id="quote">Loading...</p>
+        </div>
+        <div id="button-container">
+            <button class="color-button" id="red-button">Red</button>
+            <button class="color-button" id="green-button">Green</button>
+            <button class="color-button" id="blue-button">Blue</button>
+            <button class="color-button" id="purple-button">Purple</button>
+        </div>
+    </section>
+
+
+    <section id="hero-converter">  
+        <div class = "hero-converter">
+            <h1 class="title">Hero Converter</h1> 
+        </div>
+        <div class="hero-container">
+            <input type="number" id="weight" placeholder="Enter weight... ">
+            <select id="conversionType">
+                <option value="kgToLbs" style="color: chocolate; font-size: 15px;">Kilograms to Pounds</option>
+                <option value="lbsToKg" style="color: chocolate; font-size: 15px;">Pounds to Kilograms</option>
+            </select>
+            <button class="convert-button" onclick="convert()">Convert</button>
+            <p id="result"></p>
+        </div>
+    </section>
+    
+    
+    <section id="number-series">
+        <div id="number-series-container">   
+            <h1 class="title">Number Series Calculator</h1>
+            <form id="number-form">
+                <input type="text" id="numbers" placeholder="Enter a series of numbers... " size="50">
+            </form>
+        </div>
+        <div class="result-container">
+            <h2>Results:</h2>
+            <p id="max"></p>
+            <p id="min"></p>
+            <p id="sum"></p>
+            <p id="average"></p>
+            <p id="reverse"></p>
+        </div>
+    </section>
+    
+    
+    <section id="magic"> 
+        <div id="magic-box-container"> 
+            <h1 class="title">Magic Box</h1>
+            <textarea id="textArea" rows="15" cols="60" placeholder="start typing..."></textarea><br>
+            <button id="clearBtn">Clear All</button>
+            <button id="capitalizeBtn">Capitalize</button>
+            <button id="sortBtn">Sort</button>
+            <button id="reverseBtn">Reverse</button>
+            <button id="stripBlankBtn">Strip Blank</button>
+            <button id="addNumbersBtn">Add Numbers</button>
+            <button id="shuffleBtn">Shuffle</button>
+        </div> 
+     
+    </section>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>

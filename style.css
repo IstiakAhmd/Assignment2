@@ -1,0 +1,150 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: chocolate;
+    text-align: center;
+}
+.header{
+    font-size: 60px;
+    color: chocolate;
+    background-color: wheat;
+    padding: 40px;
+    margin: 5%;
+    border-radius: 20px;
+}
+.title{
+    color: chocolate;
+    font-size: 60px;
+}
+
+/*-----------------quote-------------------*/
+#quote-generator{
+    background-color: wheat;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 20px;
+
+}
+.quote-title{
+    color: chocolate;
+    font-size: 50px;
+
+}
+
+#quote-container {  
+    margin: 20px auto;
+    padding: 20px;
+    background-color: chocolate;
+    border-radius: 20px;
+    width: 80%;   
+}
+
+#quote {
+    font-size: 24px;
+    color: wheat;
+}
+
+#button-container {
+    padding: 1%;
+    margin-bottom: 20px;
+
+}
+
+.color-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#red-button{
+    color: White; background-color: red;
+}
+#green-button{
+    color: White; background-color: green;
+}
+#blue-button{
+    color: White; background-color: blue;
+}
+#purple-button{
+    color: White; background-color: purple;
+}
+/*-----------------converter-------------------*/
+#hero-converter{
+    background-color: wheat;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+#weight{
+    padding: 1%;
+    color: chocolate;
+    font-size: 21px;
+}
+::placeholder{
+    color: chocolate;
+    font-size: 25px;
+}
+
+#conversionType{
+    padding: 1%;
+    color: chocolate;
+    font-size: 20px;
+
+}
+.convert-button{
+    padding: 1%;
+    background-color: chocolate;
+    color: wheat;
+    font-size: 20px;
+}
+
+#result{
+    color: chocolate;
+    font-size: 40px;
+}
+
+/*-----------------number-series-------------------*/
+
+#number-series{
+    background-color: wheat;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 20px;
+}
+input[type=text] {
+    width: 80%;
+    padding: 2%;
+    box-sizing: border-box;
+    color: chocolate;
+    font-size: 20px;
+}
+.result-container{
+    font-size: 30px;
+    color: chocolate;
+
+}
+
+/*-----------------magic-box-------------------*/
+#magic{
+    background-color: wheat;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+#textArea{
+    font-size: 25px;
+    color: chocolate;
+    border: 5px solid;
+    border-radius: 1%;
+    border-color: chocolate;
+}
+
+#clearBtn, #capitalizeBtn, #sortBtn, #reverseBtn, #stripBlankBtn, #addNumbersBtn, #shuffleBtn{
+    padding: 1%;
+    background-color: chocolate;
+    color: wheat;
+    font-size: 20px;
+}
