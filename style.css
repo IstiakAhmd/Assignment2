@@ -58,16 +58,32 @@ body {
 
 
 #red-button{
-    color: White; background-color: red;
+    color: White; 
+    background-color: red;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 15%;
 }
 #green-button{
-    color: White; background-color: green;
+    color: White; 
+    background-color: green;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 15%;
 }
 #blue-button{
-    color: White; background-color: blue;
+    color: White; 
+    background-color: blue;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 15%;
 }
 #purple-button{
-    color: White; background-color: purple;
+    color: White; 
+    background-color: purple;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 15%;
 }
 /*-----------------converter-------------------*/
 #hero-converter{

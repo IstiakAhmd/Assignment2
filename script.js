@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const capitalizeBtn = document.getElementById('capitalizeBtn');
     const sortBtn = document.getElementById('sortBtn');
     const reverseBtn = document.getElementById('reverseBtn');
-    const stripBlankBtn = document.getElementById('stripBlankBtn');
+    let stripBlankBtn = document.getElementById('stripBlankBtn');
     const addNumbersBtn = document.getElementById('addNumbersBtn');
     const shuffleBtn = document.getElementById('shuffleBtn');
 
@@ -116,9 +116,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const lines = textArea.value.split('\n');
         textArea.value = lines.reverse().join('\n');
     });
-
+    
     stripBlankBtn.addEventListener('click', () => {
-        const lines = textArea.value.split('\n').filter(line => line.trim() !== '');
+        lines = textArea.value.split('\n').filter(line => line.trim() !== '');
+        textArea.value = lines.join('\n');
+        lines = textArea.value.split('\n').map(line => line.trim()); 
         textArea.value = lines.join('\n');
     });
 
